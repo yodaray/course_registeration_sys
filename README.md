@@ -1,8 +1,6 @@
-# CSCI3100_D5
+# Course Registeration System
 
-CSCI3100 Group Project (Course Selection System)
-
-This is a course selection application which has 3 types of users: student, teacher and admin. 
+This is a course Registeration application which has 3 types of users: student, teacher and admin. 
 The user needs to register first, then use user id and password to log in. After logging in, the users will go to the home page corresponding to their role. They can use the functions of their role there. The users can click the logout button in the home page to log out. The application will go back to the login page.
 
 
