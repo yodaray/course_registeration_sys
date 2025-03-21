@@ -1,0 +1,450 @@
+$lightPurple: #f2f2fc;
+
+//Style for the application
+.app {
+  .container {
+
+    .auth {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: $lightPurple;
+
+      h1 {
+        font-size: 20px;
+        color: #4147d5;
+        margin-bottom: 20px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        background-color: white;
+        width: 200px;
+        gap: 20px;
+
+        input {
+          padding: 10px;
+          border: none;
+          border-bottom: 1px solid gray;
+        }
+
+        button {
+          padding: 10px;
+          border: none;
+          background-color: teal;
+          cursor: pointer;
+          color: white;
+        }
+
+        p {
+          font-size: 12px;
+          color: red;
+          text-align: center;
+        }
+
+        span {
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+    }
+
+    .studentHome {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: $lightPurple;
+
+      h1 {
+        font-size: 50px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+    }
+
+    .teacherHome {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: $lightPurple;
+
+      h1 {
+        font-size: 50px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+    }
+
+    .adminHome {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: $lightPurple;
+
+      h1 {
+        font-size: 50px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+    }
+
+    .CourseBrowsing {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+
+      .input-container {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .Profile {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .ViewEditCourses {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .ViewEditUsers {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .AddCourse {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .AddUser {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .DeleteCourse {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .DeleteUser {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .EnrollmentSetting {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .GradeUpload {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .CourseTeaching {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .CourseUpdate {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .SpecialAddDrop {
+      background-color: $lightPurple;
+      height: 100vh;
+
+      h1:not(.menu) {
+        font-size: 70px;
+        color: #4147d5;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .err {
+        color: red;
+      }
+
+      .response {
+        color: red;
+      }
+    }
+
+    .course-selection-system-container {
+      background-image: url('./pages/common/image/DefaultBackground.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+      .course-selection-system-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 10px;
+      }
+      
+      .course-selection-system-link {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #f1f1f1;
+        transition: background-color 0.2s ease-in-out;
+      }
+      
+      .course-selection-system-link:hover {
+        background-color: #ddd;
+      }
+    }
+
+    .bug-report-container {
+      background-image: linear-gradient(to bottom, #c3e4ff, #ffffff);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .ChangePassword {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      .header {
+        margin-bottom: 20px;
+      }
+        
+      .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+        
+      .form-group {
+        margin-bottom: 10px;
+      }
+        
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+        
+      input[type="password"] {
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+        
+      button {
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+    }
+
+    .contact-admin-container {
+      background-image: linear-gradient(to bottom, #dfe9f3, #ffffff);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
